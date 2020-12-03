@@ -1,25 +1,37 @@
-body {
-  overflow: hidden;
-}
 .sidebar {
-  overflow-y: auto;
-  max-height: 100vh;
   padding: 0 !important;
 }
 
 .list-group {
   border-radius: 0px !important;
+  overflow-y: auto;
+  max-height: 85vh;
+}
+.list-group::-webkit-scrollbar {
+  width: 5px;
+}
+.list-group::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+.list-group::-webkit-scrollbar-thumb {
+  background: rgb(160, 122, 19);
+  border-radius: 10px;
+}
+
+.list-group-item {
+  border-bottom: 1px solid rgb(65, 65, 65);
 }
 
 .box-r {
-  background: red;
+  background: rgb(63, 63, 63);
   height: 200px;
 }
 .box-g {
-  background: green;
+  background: rgb(173, 170, 170);
   height: 200px;
 }
 .box-b {
-  background: blue;
+  background: rgb(13, 13, 14);
   height: 200px;
 }
