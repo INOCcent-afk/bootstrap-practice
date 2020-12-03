@@ -1,0 +1,25 @@
+body {
+  overflow: hidden;
+}
+.sidebar {
+  overflow-y: auto;
+  max-height: 100vh;
+  padding: 0 !important;
+}
+
+.list-group {
+  border-radius: 0px !important;
+}
+
+.box-r {
+  background: red;
+  height: 200px;
+}
+.box-g {
+  background: green;
+  height: 200px;
+}
+.box-b {
+  background: blue;
+  height: 200px;
+}
